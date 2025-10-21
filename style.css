@@ -1,0 +1,69 @@
+/* General Page Style */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Headings */
+h1 {
+    color: #004080;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #0066cc;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 40px;
+}
+
+/* Links */
+a {
+    color: #0a15ed;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #005500;
+}
+
+/* Image */
+img {
+    display: block;
+    margin-top: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+/* Audio and Video */
+audio, video {
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
